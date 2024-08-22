@@ -21,20 +21,16 @@ authors:
 
 ### OPTIONAL but strongly recommended
 # A short summary description of the collection
-description: your collection description
+description: Unraid related modules and plugins
 
 # Either a single license or a list of licenses for content inside of a collection. Ansible Galaxy currently only
 # accepts L(SPDX,https://spdx.org/licenses/) licenses. This key is mutually exclusive with 'license_file'
 license:
 - GPL-3.0-or-later
 
-# The path to the license file for the collection. This path is relative to the root of the collection. This key is
-# mutually exclusive with 'license'
-license_file: ''
-
 # A list of tags you want to associate with the collection for indexing/searching. A tag name has the same character
 # requirements as 'namespace' and 'name'
-tags: []
+tags: [ 'unraid', 'vm' ]
 
 # Collections that this collection requires to be installed for it to be usable. The key of the dict is the
 # collection label 'namespace.name'. The value is a version range
@@ -43,16 +39,16 @@ tags: []
 dependencies: {}
 
 # The URL of the originating SCM repository
-repository: http://example.com/repository
+repository: https://github.com/Strimblaster/ansible-inventory-unraid-vms
 
 # The URL to any online docs
-documentation: http://docs.example.com
+documentation: https://github.com/Strimblaster/ansible-inventory-unraid-vms
 
 # The URL to the homepage of the collection/project
-homepage: http://example.com
+homepage: https://github.com/Strimblaster/ansible-inventory-unraid-vms
 
 # The URL to the collection issue tracker
-issues: http://example.com/issue/tracker
+issues: https://github.com/Strimblaster/ansible-inventory-unraid-vms
 
 # A list of file glob-like patterns used to filter any files or directories that should not be included in the build
 # artifact. A pattern is matched from the relative path of the file or directory of the collection directory. This
