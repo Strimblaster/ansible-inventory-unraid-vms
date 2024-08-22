@@ -45,5 +45,5 @@ ansible_user: "ansible"
 ### How it works
 TODO
 
-![Working example](image.png)
+![Working example](docs/working_example.png)
 
