@@ -41,6 +41,7 @@ ansible_user: "ansible"
 ![QEMU Agent not installed example](docs/qemu_agent_not_installed.png)
 
 - When parsing VMs with multiple interfaces, the first ethernet interface with ipv4 will be chosen
+- This plugin assumes that the Ansible Control Node can connect to the VMs with ssh keys
 
 ### How it works
 TODO
